@@ -5,7 +5,7 @@ This guide describes how to install PipeWire, Docker, and then set up the Linux-
 ## Prerequisites:
 
 - A Linux system (tested on Debian/Raspberry Pi OS/Ubuntu)
-- Docker and Docker Compose installed (Optional but preffered)
+- Docker and Docker Compose installed (Optional but preferred)
 - A microphone and speaker for audio input/output
 
 ## Overview:
@@ -73,11 +73,11 @@ The installation process can be divided into the following steps:
 
 ### Option A) Use Prebuilt Pi Image:
 
-The easyiest way to get started is to use the prebuilt image. This image comes with all necessary configurations and drivers preinstalled.
+The easiest way to get started is to use the prebuilt image. This image comes with all necessary configurations and drivers preinstalled.
 
 - Download ready-to-use image from [PiCompose](https://github.com/florian-asche/PiCompose)
 - Change configuration in /compose/ directory if you need to.
-- You may need to reboot the board like 3 times for everything to be installed. Especially for the 2MicHat drivers. And give docker-compose some time to download the images. You can watch the logs in /var/logs/picompose.log
+- You may need to reboot the board around 3 times for everything to be installed. Especially for the 2MicHat drivers.Also give docker-compose some time to download the images. You can watch the logs in /var/logs/picompose.log
 - More information within the PiCompose project.
 
 ### Option B) Install on your own:
